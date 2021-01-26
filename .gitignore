@@ -27,3 +27,5 @@ tmpdb/
 
 /app_values
 /.vscode*
+.idea/
+.eslintcache

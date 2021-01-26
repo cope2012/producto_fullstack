@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import ButtonElemet from '@material-ui/core/Button';
 import './Button.css';
 
@@ -10,6 +10,11 @@ function Button (props) {
         setHidden(true);
     };
     const [hidden, setHidden] = useState(false)
+
+    useEffect(() => {
+        setHidden(false);
+    }, []);
+
     return (
         <ButtonElemet
             className="points-button"
