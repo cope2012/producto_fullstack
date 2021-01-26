@@ -5,7 +5,6 @@ import './App.css';
 
 function App() {
   const requestPointsRef = useRef(() => {});
-  
   return (
     <div id="app">
       <Map
